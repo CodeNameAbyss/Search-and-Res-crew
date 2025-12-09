@@ -221,7 +221,7 @@ public class Main_runner {
                         }
 
                         if (team.searchResponders(rID).getCondition() == 0) {
-                          team.searchResponders(rIAD).setStatus("Unconscious");
+                          team.searchResponders(rID).setStatus("Unconscious");
                         } else if (team.searchResponders(rID).getCondition() <= 25) {
                           team.searchResponders(rID).setStatus("Injured");
                         } else {
